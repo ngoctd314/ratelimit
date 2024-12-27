@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"go.uber.org/ratelimit"
+	"github.com/ngoctd314/ratelimit"
 )
 
 func Example_default() {

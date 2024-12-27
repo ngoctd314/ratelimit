@@ -1,4 +1,4 @@
-module go.uber.org/ratelimit
+module github.com/ngoctd314/ratelimit
 
 go 1.20
 
