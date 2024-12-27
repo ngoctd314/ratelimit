@@ -21,6 +21,7 @@
 package ratelimit // import "go.uber.org/ratelimit"
 
 import (
+	"fmt"
 	"time"
 
 	"github.com/benbjohnson/clock"
@@ -54,6 +55,7 @@ type config struct {
 
 // New returns a Limiter that will limit to the given RPS.
 func New(rate int, opts ...Option) Limiter {
+	fmt.Println("v2")
 	return newAtomicInt64Based(rate, opts...)
 }
 
